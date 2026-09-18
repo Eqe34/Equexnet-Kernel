@@ -33,7 +33,7 @@ analizi ve otomatik threat mitigation yapan savunma sürücüsü*
 > **Yetkisiz kullanım Türkiye'de 5237 sayılı TCK Madde 243-245 kapsamında
 > suçtur.**
 >
-> Detaylar için [`LICENSE.md`](LICENSE.md) dosyasına bakın.
+> Detaylar için [`LICENSE`](LICENSE.md) dosyasına bakın.
 
 ---
 
