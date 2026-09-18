@@ -1,0 +1,55 @@
+# ─── Kernel Derleme Çıktıları (KRİTİK!) ────────
+*.sys
+*.pdb
+*.cer
+*.cat
+*.inf.bak
+
+# ─── User-Mode Derleme Çıktıları ───────────────
+*.exe
+*.obj
+*.o
+*.ilk
+*.exp
+*.lib
+*.dll
+
+# ─── Visual Studio ─────────────────────────────
+.vs/
+Debug/
+Release/
+x64/
+x86/
+ARM64/
+*.vcxproj.user
+*.vcxproj.filters
+*.suo
+*.user
+
+# ─── WDK / Build Artifacts ─────────────────────
+*.log
+*.etl
+*.tmh
+*.trace
+
+# ─── Test Sertifikaları (GÜVENLİK!) ────────────
+*.pfx
+*.pvk
+*.spc
+*.pem
+*.key
+
+# ─── IDE ───────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── OS ────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Log / Test Çıktıları ──────────────────────
+equexnet_alerts.log
+*.tmp

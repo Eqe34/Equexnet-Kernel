@@ -1,0 +1,128 @@
+# EDUCATIONAL USE LICENSE
+**Version 1.0**
+
+Copyright (c) 2026 **Samet KÖK** — All rights reserved.
+
+---
+
+## 📋 Özet (Türkçe)
+
+Bu yazılım **yalnızca eğitim ve yetkili savunma güvenliği araştırmaları** için
+geliştirilmiştir. Kernel seviyesinde çalışan bir sürücü olduğu için, kurulum ve
+kullanım öncesi aşağıdaki şartları **dikkatlice** okuyun.
+
+---
+
+## ✅ İZİN VERİLEN KULLANIM
+
+Aşağıdaki durumlarda bu yazılımı kullanabilirsiniz:
+
+1. **Eğitim ve öğrenme** — üniversite projeleri, kurs ödevleri, kişisel çalışma
+2. **Kendi sistemleriniz** — fiziksel olarak sahip olduğunuz bilgisayarlar
+3. **İzole test ortamları** — sanal makine (VM), lab bilgisayarı, air-gapped test
+4. **Yetkili sızma testi** — yazılı izin alınmış kurumsal güvenlik denetimleri
+5. **Kaynak kodu incelemesi** — kodu okuma, öğrenme, fork'lama, değiştirme
+6. **Akademik araştırma** — üniversite tezleri, güvenlik araştırma makaleleri
+
+---
+
+## ❌ YASAK KULLANIM
+
+Aşağıdaki kullanımlar **KESİNLİKLE YASAKTIR**:
+
+1. **Başkasının sisteminde izinsiz kurulum veya kullanım**
+2. **Production (üretim) ortamında kurulum** — bu sürücü **test imzalıdır**,
+   production için değildir
+3. **Zararlı yazılım ile entegrasyon** — rootkit, trojan, keylogger, worm vb.
+4. **Veri hırsızlığı, gözetleme veya dinleme** — başkasının ağ trafiğini izinsiz
+   izlemek
+5. **Ticari ürün olarak satış** veya ticari lisans altında dağıtım
+6. **Devlet / kamu kurumları / kritik altyapı sistemlerine izinsiz erişim**
+7. **Yasaları ihlal eden herhangi bir faaliyet**
+
+---
+
+## ⚠️ KERNEL-MODE SÜRÜCÜ UYARISI
+
+Bu yazılım **Windows kernel-mode** (Ring 0) seviyesinde çalışır. Bu, aşağıdaki
+riskleri beraberinde getirir:
+
+- 💀 **Sistem çökmesi (BSOD)** — hatalı kullanımda mavi ekran riski
+- 🔒 **Sistem bütünlüğü** — kernel seviyesinde hatalar sistemi kullanılamaz hale
+  getirebilir
+- 🛡️ **İmzalama zorunluluğu** — Windows 10/11 x64'te test imzalama modu veya
+  test sertifikası gerekir
+- 🔄 **Kurtarma modu** — yanlış kurulumda sistem güvenli moddan kurtarılmalıdır
+
+**Öneri:** Bu sürücüyü **mutlaka** sanal makinede (VMware, VirtualBox, Hyper-V)
+veya izole bir test bilgisayarında deneyin.
+
+---
+
+## 🛡️ SORUMLULUK REDDİ
+
+YAZILIM **"OLDUĞU GİBİ"** (AS-IS) SAĞLANMIŞTIR. GELİŞTİRİCİ:
+
+- Açık veya zımni **hiçbir garanti vermez** (satılabilirlik, belirli bir amaca
+  uygunluk dahil)
+- Sistem hasarı, veri kaybı, BSOD, ağ kesintisi veya **herhangi bir zarardan**
+  sorumlu tutulamaz
+- Yazılımın **kötüye kullanımından** doğacak hukuki ve cezai sorumluluk **kabul
+  etmez**
+- Yazılımı kullanan kişi, **tüm riski ve sorumluluğu** kabul etmiş sayılır
+
+---
+
+## ⚖️ YASAL DAYANAK (TÜRKİYE CUMHURİYETİ)
+
+Bu yazılımın izinsiz kullanımı aşağıdaki kanunlar kapsamında **suç** teşkil eder:
+
+| Kanun | Madde | Suç |
+|-------|-------|-----|
+| 5237 sayılı TCK | 243 | Bilişim sistemine girme |
+| 5237 sayılı TCK | 244 | Sistemi engelleme, bozma, verileri yok etme |
+| 5237 sayılı TCK | 245 | Banka/kredi kartı kötüye kullanımı |
+| 5237 sayılı TCK | 245/A | Yasak cihaz veya programlar |
+| 5651 sayılı Kanun | — | İnternet ortamında yapılan yayınlar |
+| 6698 sayılı KVKK | — | Kişisel verilerin korunması |
+
+Yetkisiz kullanım tespit edildiğinde **yasal işlem başlatılabilir**.
+
+---
+
+## 🌍 INTERNATIONAL
+
+For international users:
+
+- **CFAA (USA)** — Computer Fraud and Abuse Act
+- **Computer Misuse Act (UK)**
+- **GDPR (EU)** — for personal data processing
+- **Budapest Convention** — Cybercrime Convention
+
+Unauthorized use of this software **may be a criminal offense** in your
+jurisdiction. It is **your responsibility** to understand and comply with your
+local laws.
+
+---
+
+## 📧 İLETİŞİM
+
+- 📧 E-posta: **software@sametkok.info**
+- 🐛 Güvenlik açıkları: GitHub Issues (private disclosure preferred)
+- 🌐 Portfolyo: https://sametkok.com
+- 💻 GitHub: https://github.com/Eqe34
+
+---
+
+## ✔️ ONAY
+
+Bu yazılımı kullanarak, yukarıdaki **tüm şartları okuduğunuzu, anladığınızı ve
+kabul ettiğinizi** beyan etmiş sayılırsınız.
+
+**Kabul etmiyorsanız bu yazılımı kullanmayın ve sisteminizden kaldırın.**
+
+---
+
+**Son güncelleme:** 2026
+**Lisans sürümü:** 1.0
+**Proje:** EquexNet Kernel IDS/IPS
